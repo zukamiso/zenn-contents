@@ -1,3 +1,11 @@
+---
+title: "CloudFront+S3でWebホスティングしたときにキャッシュしたくない！"
+emoji: "🙄"
+type: "tech"
+topics: ["aws"]
+published: true
+---
+
 # 前がき
 普段、AWSでSPA(Angular)をデプロイするときによくCloudFrontとS3のWebホスティングの機能を使って環境にデプロイすることがあります。
 開発中に実際の環境で動かしてテストした場合にCloudFrontのキャッシュによって新しいバージョンのコードが動かなかったので、解決方法を紹介したいと思います。
